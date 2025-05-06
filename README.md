@@ -1,2 +1,17 @@
-# Milestone-Monitor
-Milestone Monitor is a lightweight Python based visual tracker built with Tkinter that lets you track daily progress through a color-coded grid of buttons representing each day of the year. It highlights the current day for easy editing, saves your progress locally, and provides a simple visual overview of your milestones.
+# Milestone Monitor
+
+**Milestone Monitor** is a simple Python script that visually tracks your daily progress throughout the year using a grid of buttons. Each button represents a day, and clicking today's button cycles through progress levels using color codes. Your progress is saved locally in a text file for future use.
+
+## Files Included
+
+- `milestone.py` – Main Python script
+- `buttons_data.txt` – Saves daily progress (auto-generated)
+- `icon.png` – Optional image/icon for customization
+
+## How to Use
+
+1. Make sure you have **Python 3** installed.
+2. Run the script:
+
+   ```bash
+   python milestone.py
